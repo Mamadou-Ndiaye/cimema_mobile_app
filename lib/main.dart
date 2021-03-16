@@ -54,6 +54,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                   MenuItem(item["title"], item['icon'], (context) {
                     Navigator.pop(context);
+                    //Pour ouvrir une nouvelle page
                     Navigator.push(
                         context,
                         MaterialPageRoute(
